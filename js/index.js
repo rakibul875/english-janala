@@ -59,7 +59,7 @@ const displayWordDetails = (word) => {
                 </div>
                 <div class="">
                     <h2 class="text-xl font-semibold">সমার্থক শব্দ গুলো</h2>
-                    <div class="">${createElement(word.synonyms)}</div>
+                    <div class="gap-3">${createElement(word.synonyms)}</div>
                 </div>
   `
     document.getElementById("my_modal").showModal()
